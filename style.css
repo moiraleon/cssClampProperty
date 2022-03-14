@@ -1,0 +1,15 @@
+body {
+  display: flex;
+}
+
+.text {
+  border: 1px #ccc solid;
+  padding: 10px;
+  font-size: clamp(2rem, 6vmin, 3rem);
+}
+
+@media(min-width: 768px){
+    .container-1{
+    display: flex;
+    }
+}
